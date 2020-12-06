@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Grenze+Gotisch&display=swap');
+
+body{
+    margin:0;
+    padding:0;
+    font-size: 18px;
+    font-style: "Times New Roman", Times, serif; 
+}
+
+header{
+    background-image: url(/images/background.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-size: 100vw;
+    padding:300px;
+}
+
+
+header h1{
+    font-size:70px;
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+}
+
+
+header p{
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+    color: white;
+    text-transform: uppercase;
+    position: absolute;
+    top:60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+    word-spacing:2rem;
+
+}
+
+.header_annoying{
+    color:white
+}
+
+.card_annoying{
+    color:black;
+}
+
+
+
+
+.Spons{
+    background-color:rgb(10, 10, 10);
+    padding:50px;
+}
+
+.spons-title{
+    font-size:40px;
+    margin-left:200px;
+    color: white;
+    text-transform: uppercase;
+    margin-bottom:100px;
+    text-align: center;
+}
+
+
+.Spons img{
+    width:250px;
+    margin-left:150px;
+}
+
+
+
+footer{
+    border-top: 10px #329fd8 solid;
+    background-color:#b65044;
+}
+
+.footer{
+    padding-bottom:10px;
+    margin-bottom:0;
+}
+
+.social{
+    text-align: center;  
+}
+
+
+.social img{
+    width:24px; 
+    margin-left:10px;  
+}
+
+
+
+.footer li{
+    text-align: center;
+    display: inline;
+}
+
+.footer a{
+    color: black;
+    text-align: center;
+    transition: color .5s;
+}
+
+.terms{
+    text-align: center;
+    margin-top:5px;
+}
+
+
+.footer a:hover{
+    text-decoration: none;
+    color: white;
+
+}
