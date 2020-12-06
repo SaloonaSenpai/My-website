@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ARticle 3</title>
+
+    <!-- LINKS TO CSS/ JS / AND BOOTSTRAP-->
+    <link rel="stylesheet" href="styles\about.css">
+    <link rel="stylesheet" href="styles\base.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="scripts\main1.js"></script>
+    <script src="/scripts/cookies.js"></script>
+    <script src="/scripts/template.js"></script>
+    <script src="/scripts/theme.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+    
+</head>
+<body onload="check_theme(), checkCookie(), check_size()">
+    <!--USING BOOTSTRAP FOR THERE AMAZING NAV BARS-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light ">
+        <a class="navbar-brand" href="index.htm">Atom Esport</a>
+
+        <!-- for people with smaller window size like phones itll help resize and adapt-->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+    
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link " href="index.htm">Home <span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="about.htm">about</a>
+              <a class="nav-link" href="team.htm">team</a>
+              <a class="nav-link" href="social_media.htm">social</a>
+              <a class="nav-link" href="help.htm">help</a>
+            </div>
+          </div>
+
+          <!-- BUTTONS-->
+          <p class="displayme my-2 my-lg-0">Welcome</p>
+          <button class="btn btn-light my-2 my-sm-0" onclick="lighttheme()">Light</button>
+          <button class="btn btn-dark my-2 my-sm-0" onclick="darktheme()">Dark </button>
+
+        </div>
+      </nav>
+
+      <header></header>
+
+      <div class="size_buttons">
+        <button onclick="big_size()" class="btn btn-info">+</button>
+        <button onclick="normal_size()" class="btn btn-info">normal</button>
+        <button onclick="small_size()" class="btn btn-info">-</button>
+      </div>
+
+
+      <section class="article-one container">
+        <div class="bread" aria-label="breadcrumb">
+          <ol class="zoom">
+            <li class="breadcrumb-item"><a href="index.htm">Home</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Article Three</li>
+          </ol>
+        </div>
+        <div class="article-text">
+            <h3>DAMWON wins worlds in league of legends</h3>
+            <h5 class="text-muted">Atom, 2020</h5>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pulvinar non sapien sed varius. Donec scelerisque metus at nulla fermentum tristique. Suspendisse sapien elit, semper eget est vitae, suscipit varius purus. Fusce hendrerit urna in urna pellentesque, quis cursus urna mollis. Suspendisse in metus vel felis scelerisque accumsan. Aliquam rhoncus dictum risus, sed faucibus risus egestas a. Morbi hendrerit vehicula posuere. Integer semper nisl suscipit, bibendum dolor a, ullamcorper neque. Aenean in imperdiet metus. Cras pretium ante vel tortor rutrum, at molestie elit tincidunt. Quisque fringilla quis justo sed faucibus. Nunc a purus tincidunt, feugiat neque non, porttitor lacus. Aliquam erat volutpat. Praesent pharetra fermentum urna, sed sollicitudin lacus finibus ac.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pulvinar non sapien sed varius. Donec scelerisque metus at nulla fermentum tristique. Suspendisse sapien elit, semper eget est vitae, suscipit varius purus. Fusce hendrerit urna in urna pellentesque, quis cursus urna mollis. Suspendisse in metus vel felis scelerisque accumsan. Aliquam rhoncus dictum risus, sed faucibus risus egestas a. Morbi hendrerit vehicula posuere. Integer semper nisl suscipit, bibendum dolor a, ullamcorper neque. Aenean in imperdiet metus. Cras pretium ante vel tortor rutrum, at molestie elit tincidunt. Quisque fringilla quis justo sed faucibus. Nunc a purus tincidunt, feugiat neque non, porttitor lacus. Aliquam erat volutpat. Praesent pharetra fermentum urna, sed sollicitudin lacus finibus ac.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pulvinar non sapien sed varius. Donec scelerisque metus at nulla fermentum tristique. Suspendisse sapien elit, semper eget est vitae, suscipit varius purus. Fusce hendrerit urna in urna pellentesque, quis cursus urna mollis. Suspendisse in metus vel felis scelerisque accumsan. Aliquam rhoncus dictum risus, sed faucibus risus egestas a. Morbi hendrerit vehicula posuere. Integer semper nisl suscipit, bibendum dolor a, ullamcorper neque. Aenean in imperdiet metus. Cras pretium ante vel tortor rutrum, at molestie elit tincidunt. Quisque fringilla quis justo sed faucibus. Nunc a purus tincidunt, feugiat neque non, porttitor lacus. Aliquam erat volutpat. Praesent pharetra fermentum urna, sed sollicitudin lacus finibus ac.</p>
+
+            <div class="article-image">
+              <a href="https://lol.gamepedia.com/DAMWON_Gaming" target="_blank"><img src="/images/domwon.jpg" alt="Damnwon"></a>
+            </div>
+
+            <audio id="audio" controls>
+              <source src="/video/audio.mp3" type="audio/mp3">
+            </audio>
+        
+
+      </section>
+
+
+    
+
+
+
+
+
+
+
+
+      
+
+<section class="Spons"></section>
+<footer class="footer"></footer>
+
+
+</body>
+</html> 

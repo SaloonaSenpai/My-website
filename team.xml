@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<esport>
+    <league_of_legends_team>
+        <members>
+            <title>Player</title>
+            <name>Atom</name>
+            <position>top</position>
+        </members>
+        <members>
+            <title>Player</title>
+            <name>Raven</name>
+            <position>mid</position>
+        </members>
+        <members>
+            <title>Player</title>
+            <name>implore_</name>
+            <position>jungler</position>
+        </members>
+        <members>
+            <title>Player</title>
+            <name>Shrimp</name>
+            <position>ADC</position>
+        </members>
+        <members>
+            <title>Player</title>
+            <name>smelt</name>
+            <position>Support</position>
+        </members>
+    </league_of_legends_team>
+
+    <stream_team>
+        <members>
+            <title>streamer</title>
+            <name>Atom</name>
+            <position>league of legends content creator</position>
+        </members>
+        <members>
+            <title>streamer</title>
+            <name>Cave</name>
+            <position>World of warcraft content creator</position>
+        </members>
+        <members>
+            <title>streamer</title>
+            <name>3waish</name>
+            <position>Art content creator</position>
+        </members>
+        <members>
+            <title>streamer</title>
+            <name>Shrimp</name>
+            <position>COD content creator</position>
+        </members>
+    </stream_team>
+
+    <coaches>
+        <members>
+            <title>Coach</title>
+            <name>Professor Akali</name>
+            <position>league of legends coach</position>
+        </members>
+        <members>
+            <title>Coach</title>
+            <name>Jankos</name>
+            <position>World of warcraft coach</position>
+        </members>
+    </coaches>
+</esport>
+
